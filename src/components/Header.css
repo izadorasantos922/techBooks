@@ -1,0 +1,17 @@
+header{
+    font-weight: bold;
+    height: 30px;
+    position: fixed;
+    padding: 20px 40px;
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
