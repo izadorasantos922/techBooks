@@ -11,7 +11,28 @@ header{
     background-color: orange;
 }
 
+.hamburguer{
+    display: none;
+}
+
 .logo{
     display: flex;
     align-items: center;
+}
+.menu-mobile{
+    display: none;
+}
+
+@media(max-width: 425px){
+    header{
+        padding-left: 16px;
+    }
+    .hamburguer{
+        display:block;
+        margin-right: 25px;
+    }
+    .menu-mobile{
+        display: block;
+        margin-right: 40px;
+    }
 }

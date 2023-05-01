@@ -11,34 +11,43 @@ a{
     margin-right: 20px;
 }
 
-.icon{
+.save{
     font-size: 20px;
     margin-right: 100px;
     cursor: pointer;
-    background-color: orangered;
+    background-color:  orangered;
     padding: 5px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
-.hamburguer{
-    display: none;
-}
+
 
 @media(max-width: 425px){
-    nav ul{
-        margin-top: 13.5rem;
-        height: 15rem;
-        width: 8rem;
-        padding: 2rem 2rem 2rem 0.5rem;
-        background-color: orangered;
-        display: block;
-        border-bottom-left-radius: 10px;
+    .nav-bar-desktop{
         display: none;
     }
-
-    li{
+    .menu{
+        padding: 3rem;
+        top: 0;
+        right: 0;
+        position: fixed;
+        background-color: orangered;
+        height: 100%;
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu li{
         margin-bottom: 10px;
     }
-    .hamburguer{
-        display:none;
+    .save{
+        color: #fff;
+        border:  1px solid #fff;
+    }
+    .close{
+        position: fixed;
+        top: 25px;
+        color: #fff;
+        font-size: 20px;
+        right: 30px;
     }
 }
