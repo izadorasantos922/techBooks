@@ -5,7 +5,7 @@ import { BsBook } from "react-icons/bs";
 const Header = (props) => {
   return(<header>
     <div className="logo">
-    IzaBooks <BsBook/>
+      TechBooks <BsBook/>
     </div>
     {props.children}
   </header>)
